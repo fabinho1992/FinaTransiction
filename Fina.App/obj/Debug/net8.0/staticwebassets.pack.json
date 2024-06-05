@@ -1,59 +1,59 @@
 {
   "Files": [
     {
-      "Id": "C:\\AulasAluraBackEnd\\ProjetoBaltaIo\\fina\\Fina.App\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\WepApi\\FinaBalta\\FinaTransiction\\Fina.App\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\AulasAluraBackEnd\\ProjetoBaltaIo\\fina\\Fina.App\\obj\\Debug\\net8.0\\compressed\\j97xmotrlm.gz",
+      "Id": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\WepApi\\FinaBalta\\FinaTransiction\\Fina.App\\obj\\Debug\\net8.0\\compressed\\pzxru9vl0w.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\AulasAluraBackEnd\\ProjetoBaltaIo\\fina\\Fina.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Fina.App.styles.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\WepApi\\FinaBalta\\FinaTransiction\\Fina.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Fina.App.styles.css",
       "PackagePath": "staticwebassets\\Fina.App.styles.css"
     },
     {
-      "Id": "C:\\AulasAluraBackEnd\\ProjetoBaltaIo\\fina\\Fina.App\\obj\\Debug\\net8.0\\service-worker-assets.js",
+      "Id": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\WepApi\\FinaBalta\\FinaTransiction\\Fina.App\\obj\\Debug\\net8.0\\service-worker-assets.js",
       "PackagePath": "staticwebassets\\service-worker-assets.js"
     },
     {
-      "Id": "C:\\AulasAluraBackEnd\\ProjetoBaltaIo\\fina\\Fina.App\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
+      "Id": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\WepApi\\FinaBalta\\FinaTransiction\\Fina.App\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
       "PackagePath": "staticwebassets\\service-worker.js"
     },
     {
-      "Id": "C:\\AulasAluraBackEnd\\ProjetoBaltaIo\\fina\\Fina.App\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\WepApi\\FinaBalta\\FinaTransiction\\Fina.App\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\AulasAluraBackEnd\\ProjetoBaltaIo\\fina\\Fina.App\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\WepApi\\FinaBalta\\FinaTransiction\\Fina.App\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\AulasAluraBackEnd\\ProjetoBaltaIo\\fina\\Fina.App\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\WepApi\\FinaBalta\\FinaTransiction\\Fina.App\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\AulasAluraBackEnd\\ProjetoBaltaIo\\fina\\Fina.App\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\WepApi\\FinaBalta\\FinaTransiction\\Fina.App\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\AulasAluraBackEnd\\ProjetoBaltaIo\\fina\\Fina.App\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\WepApi\\FinaBalta\\FinaTransiction\\Fina.App\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\AulasAluraBackEnd\\ProjetoBaltaIo\\fina\\Fina.App\\wwwroot\\icon-512.png",
+      "Id": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\WepApi\\FinaBalta\\FinaTransiction\\Fina.App\\wwwroot\\icon-512.png",
       "PackagePath": "staticwebassets\\icon-512.png"
     },
     {
-      "Id": "C:\\AulasAluraBackEnd\\ProjetoBaltaIo\\fina\\Fina.App\\wwwroot\\index.html",
+      "Id": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\WepApi\\FinaBalta\\FinaTransiction\\Fina.App\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\AulasAluraBackEnd\\ProjetoBaltaIo\\fina\\Fina.App\\wwwroot\\manifest.webmanifest",
+      "Id": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\WepApi\\FinaBalta\\FinaTransiction\\Fina.App\\wwwroot\\manifest.webmanifest",
       "PackagePath": "staticwebassets\\manifest.webmanifest"
     },
     {
-      "Id": "C:\\AulasAluraBackEnd\\ProjetoBaltaIo\\fina\\Fina.App\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\WepApi\\FinaBalta\\FinaTransiction\\Fina.App\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9892E656-C5A7-4F7B-95B0-121FCE939554}|Fina.Core\\Fina.Core.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\wepapi\\finabalta\\finatransiction\\fina.core\\requests\\pagedcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9892E656-C5A7-4F7B-95B0-121FCE939554}|Fina.Core\\Fina.Core.csproj|solutionrelative:fina.core\\requests\\pagedcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A6B5587-74F0-4F3B-918A-93450C02A0A3}|Fina.Api\\Fina.Api.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\wepapi\\finabalta\\finatransiction\\fina.api\\data\\migrations\\20240605174255_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A6B5587-74F0-4F3B-918A-93450C02A0A3}|Fina.Api\\Fina.Api.csproj|solutionrelative:fina.api\\data\\migrations\\20240605174255_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9892E656-C5A7-4F7B-95B0-121FCE939554}|Fina.Core\\Fina.Core.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\wepapi\\finabalta\\finatransiction\\fina.core\\requests\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9892E656-C5A7-4F7B-95B0-121FCE939554}|Fina.Core\\Fina.Core.csproj|solutionrelative:fina.core\\requests\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A6B5587-74F0-4F3B-918A-93450C02A0A3}|Fina.Api\\Fina.Api.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\wepapi\\finabalta\\finatransiction\\fina.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A6B5587-74F0-4F3B-918A-93450C02A0A3}|Fina.Api\\Fina.Api.csproj|solutionrelative:fina.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9892E656-C5A7-4F7B-95B0-121FCE939554}|Fina.Core\\Fina.Core.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\wepapi\\finabalta\\finatransiction\\fina.core\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9892E656-C5A7-4F7B-95B0-121FCE939554}|Fina.Core\\Fina.Core.csproj|solutionrelative:fina.core\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A6B5587-74F0-4F3B-918A-93450C02A0A3}|Fina.Api\\Fina.Api.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\wepapi\\finabalta\\finatransiction\\fina.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A6B5587-74F0-4F3B-918A-93450C02A0A3}|Fina.Api\\Fina.Api.csproj|solutionrelative:fina.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9892E656-C5A7-4F7B-95B0-121FCE939554}|Fina.Core\\Fina.Core.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\wepapi\\finabalta\\finatransiction\\fina.core\\fina.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9892E656-C5A7-4F7B-95B0-121FCE939554}|Fina.Core\\Fina.Core.csproj|solutionrelative:fina.core\\fina.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9892E656-C5A7-4F7B-95B0-121FCE939554}|Fina.Core\\Fina.Core.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\wepapi\\finabalta\\finatransiction\\fina.core\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9892E656-C5A7-4F7B-95B0-121FCE939554}|Fina.Core\\Fina.Core.csproj|solutionrelative:fina.core\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9892E656-C5A7-4F7B-95B0-121FCE939554}|Fina.Core\\Fina.Core.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\wepapi\\finabalta\\finatransiction\\fina.core\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9892E656-C5A7-4F7B-95B0-121FCE939554}|Fina.Core\\Fina.Core.csproj|solutionrelative:fina.core\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9892E656-C5A7-4F7B-95B0-121FCE939554}|Fina.Core\\Fina.Core.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\wepapi\\finabalta\\finatransiction\\fina.core\\enums\\etransictiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9892E656-C5A7-4F7B-95B0-121FCE939554}|Fina.Core\\Fina.Core.csproj|solutionrelative:fina.core\\enums\\etransictiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A6B5587-74F0-4F3B-918A-93450C02A0A3}|Fina.Api\\Fina.Api.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\wepapi\\finabalta\\finatransiction\\fina.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A6B5587-74F0-4F3B-918A-93450C02A0A3}|Fina.Api\\Fina.Api.csproj|solutionrelative:fina.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,90 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PagedCategory.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Core\\Requests\\PagedCategory.cs",
-              "RelativeDocumentMoniker": "Fina.Core\\Requests\\PagedCategory.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Core\\Requests\\PagedCategory.cs",
-              "RelativeToolTip": "Fina.Core\\Requests\\PagedCategory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABOAAAA",
+              "Title": "20240605174255_V1.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Api\\Data\\Migrations\\20240605174255_V1.cs",
+              "RelativeDocumentMoniker": "Fina.Api\\Data\\Migrations\\20240605174255_V1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Api\\Data\\Migrations\\20240605174255_V1.cs",
+              "RelativeToolTip": "Fina.Api\\Data\\Migrations\\20240605174255_V1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T14:41:10.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Core\\Configuration.cs",
-              "RelativeDocumentMoniker": "Fina.Core\\Configuration.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Core\\Configuration.cs",
-              "RelativeToolTip": "Fina.Core\\Configuration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T14:38:07.991Z",
+              "WhenOpened": "2024-06-05T17:42:56.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Request.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Core\\Requests\\Request.cs",
-              "RelativeDocumentMoniker": "Fina.Core\\Requests\\Request.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Core\\Requests\\Request.cs",
-              "RelativeToolTip": "Fina.Core\\Requests\\Request.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Fina.Api\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Fina.Api\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T14:36:42.511Z",
+              "WhenOpened": "2024-06-05T17:15:02.092Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ETransictionType.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Core\\Enums\\ETransictionType.cs",
-              "RelativeDocumentMoniker": "Fina.Core\\Enums\\ETransictionType.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Core\\Enums\\ETransictionType.cs",
-              "RelativeToolTip": "Fina.Core\\Enums\\ETransictionType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T14:08:54.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Core\\Models\\Transaction.cs",
-              "RelativeDocumentMoniker": "Fina.Core\\Models\\Transaction.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Core\\Models\\Transaction.cs",
-              "RelativeToolTip": "Fina.Core\\Models\\Transaction.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T14:08:54.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Core\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Fina.Core\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Core\\Models\\Category.cs",
-              "RelativeToolTip": "Fina.Core\\Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T14:08:54.902Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Fina.Core.csproj",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Core\\Fina.Core.csproj",
-              "RelativeDocumentMoniker": "Fina.Core\\Fina.Core.csproj",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Core\\Fina.Core.csproj",
-              "RelativeToolTip": "Fina.Core\\Fina.Core.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-29T14:08:54.934Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Fina.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Api\\appsettings.json",
+              "RelativeToolTip": "Fina.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAACLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-05T17:10:03.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Fina.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\WepApi\\FinaBalta\\FinaTransiction\\Fina.Api\\Program.cs",
+              "RelativeToolTip": "Fina.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T17:00:44.616Z",
               "EditorCaption": ""
             }
           ]

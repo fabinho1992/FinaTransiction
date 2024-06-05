@@ -5,7 +5,7 @@
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "hash": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7\/p4nS6D\/0=",
       "url": "css\/bootstrap\/bootstrap.min.css"
     },
     {
@@ -809,7 +809,7 @@
       "url": "_framework\/System.Private.CoreLib.wasm"
     },
     {
-      "hash": "sha256-1gluqYmyY+wzPb2rjo7w3iRYnx1TmMKMB1seG\/JK1lQ=",
+      "hash": "sha256-QTU1Za6YZ1FPfw5Ye7ujsv0GN\/9Jn1jAR9o\/Picj+lc=",
       "url": "_framework\/dotnet.js"
     },
     {
@@ -817,16 +817,16 @@
       "url": "_framework\/dotnet.js.map"
     },
     {
-      "hash": "sha256-ztJ0aqpAzcXsSW7gHNu1PztG9XZk\/PJwcXXJhzo5Gaw=",
-      "url": "_framework\/dotnet.native.8.0.1.zuyhfqselc.js"
+      "hash": "sha256-boyHe+0RMZDkzBKGhsrnXPhPg3oZ6UqJnTUzngJPjNY=",
+      "url": "_framework\/dotnet.native.8.0.5.60fliiub2p.js"
     },
     {
       "hash": "sha256-zB5AHJiQSopwyr0rcTtY+fjb5\/hetlb8oSloJcXoorM=",
       "url": "_framework\/dotnet.native.wasm"
     },
     {
-      "hash": "sha256-Ku87wH1PqQBERfzYiyEFtJe7Wz01eIr\/RZ9ZVVClr2E=",
-      "url": "_framework\/dotnet.runtime.8.0.1.rswtxkdyko.js"
+      "hash": "sha256-5oi05+Ql\/1JzyAphppAHmbRquli4a3\/0XLMa8mQDKn8=",
+      "url": "_framework\/dotnet.runtime.8.0.5.4bufgphowc.js"
     },
     {
       "hash": "sha256-RYJCHuqP9HfYX923WDAoEiBsL8RkXLRu0NMa6kyOjsE=",
@@ -845,25 +845,25 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-nC4GiNro270rgIB9nkYV5jeN3XvvvRBDzFoQfqJa\/uA=",
+      "hash": "sha256-a+PUdLDA+gy9bpAJKcIR7+IprSlJFDeTW+SiURzo8EU=",
       "url": "_framework\/Fina.Core.wasm"
     },
     {
-      "hash": "sha256-5EObtsnBO8iVSzy5Bi+wHif+BHghSoHLoirMSyY04xo=",
+      "hash": "sha256-O08Bp\/Ic3MzmkFrnPg21E5oaIZOkfKMHlIpj5hJaXWE=",
       "url": "_framework\/Fina.Core.pdb"
     },
     {
-      "hash": "sha256-vJYGXYK+8ucMwUoDMlyu34iYdcVtT8jFIHllRKP0pzc=",
+      "hash": "sha256-bXN4oAw+\/Xr6chWRBfwHljzTpqFfpvCy5hmUpDqh44U=",
       "url": "_framework\/Fina.App.wasm"
     },
     {
-      "hash": "sha256-H5SHUroHs\/Yp1ZN+cwY0sR3mqzF7EK\/30C9JH2EaxvI=",
+      "hash": "sha256-chMr8SQkFiCn7taRuaj5MvMa8Xvays72b6Bjkj+Mu84=",
       "url": "_framework\/Fina.App.pdb"
     },
     {
-      "hash": "sha256-o+3CHvDWpsSM80cy\/PSeVcSjDXfY6Ch0G\/priRE+Vog=",
+      "hash": "sha256-Xm8DOos+5kl\/BetSE4EFDkVSMWuikn7WkLqtMAYfAlg=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "Rre4LIvs"
+  "version": "qiQvIGKC"
 };
