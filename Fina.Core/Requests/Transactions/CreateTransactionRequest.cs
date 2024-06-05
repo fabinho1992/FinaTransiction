@@ -1,23 +1,24 @@
 ﻿using Fina.Core.Enums;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fina.Core.Models
+namespace Fina.Core.Requests.Transactions
 {
-    public class Transaction
+    public class CreateTransactionRequest : Request
     {
-        public long Id { get; set; }
+        [Required(ErrorMessage = "Título inválido!")]
         public string Title { get; set; } = string.Empty;
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        [Required]
         public DateTime? PaidOrReceivedAt { get; set; }
+        [Required(ErrorMessage = "Tipo inválido!")]
         public ETransictionType Type { get; set; } = ETransictionType.WithDraw;
+        [Required(ErrorMessage = "Valor inválido!")]
         public decimal Amount { get; set; }
+        [Required]
         public long CategoryId { get; set; }
-        public Category Category { get; set; } = null!;
-        public string UserId { get; set; } = string.Empty;
     }
 }

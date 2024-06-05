@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fina.Core.Requests.Categories
 {
-    internal class GetAllCategoryRequest : PagedRequest
+    public class GetAllCategoryRequest : PagedRequest
     {
     }
 }
