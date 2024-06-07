@@ -23,7 +23,6 @@ namespace Fina.Core.Responses
 
         }
 
-
         public int CurrentPage { get; set; }
         public int TotalPages => (int)Math.Ceiling(TotalCount / (double)TotalPages);
         public int PageSize { get; set; } = Configuration.DefaultPageSize;

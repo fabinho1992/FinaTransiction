@@ -14,6 +14,7 @@ namespace Fina.Core.Services
         Task<Response<Transaction?>> CreateTransactionAsync(CreateTransactionRequest request);
         Task<Response<Transaction?>> UpdateTransactionAsync(UpdateTransactionRequest request);
         Task<Response<Transaction?>> DeleteTransactionAsync(DeleteTransactionRequest request);
+        Task<Response<Transaction?>> GetTransactionByIdAsync(GetTransactionByIdRequest request);
         Task<PagedResponse<List<Transaction>?>> GetTransactionByPeriodAsync(GetTransictionByPeriodRequest request);
 
     }
