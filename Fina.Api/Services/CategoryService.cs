@@ -79,7 +79,7 @@ namespace Fina.Api.Services
             }
         }
 
-        public async Task<Response<Category?>> GetByIdCategoryAsync(CategoryByIdRequest request)
+        public async Task<Response<Category?>> GetByIdCategoryAsync(GetCategoryByIdRequest request)
         {
             try
             {

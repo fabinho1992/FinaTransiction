@@ -1,4 +1,5 @@
 ﻿using Fina.Api.Data;
+using Fina.Core.Commom;
 using Fina.Core.Enums;
 using Fina.Core.Models;
 using Fina.Core.Requests.Transactions;
@@ -68,12 +69,50 @@ namespace Fina.Api.Services
 
         public async Task<Response<Transaction?>> GetTransactionByIdAsync(GetTransactionByIdRequest request)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var transaction = await _context.Transactions.AsNoTracking()
+                    .FirstOrDefaultAsync(t => t.Id == request.Id && t.UserId == request.UserId);
+
+                return transaction is null
+                    ? new Response<Transaction?>(null, 404, "Transação não encontrada!")
+                    : new Response<Transaction?>(transaction);
+
+            }
+            catch (Exception)
+            {
+                return new Response<Transaction?>(null, 500, "Não foi possível concluir a busca!");
+            }
         }
 
         public async Task<PagedResponse<List<Transaction>?>> GetTransactionByPeriodAsync(GetTransictionByPeriodRequest request)
         {
-            throw new NotImplementedException();
+            try
+            {
+                request.StartDate ??= DateTime.Now.GetFirstDay();
+                request.EndDate ??= DateTime.Now.GetLastDay();
+
+                var query = _context.Transactions.AsNoTracking()
+                    .Where(t => t.UserId == request.UserId &&
+                    t.PaidOrReceivedAt >= request.StartDate &&
+                    t.PaidOrReceivedAt <= request.EndDate)
+                    .OrderBy(t => t.PaidOrReceivedAt);
+
+                var count = await query.CountAsync();
+
+                var transactions = await query
+                    .Skip((request.PageNumber - 1) * request.PageSize)
+                    .Take(request.PageSize)
+                    .ToListAsync();
+
+                return new PagedResponse<List<Transaction>?>(transactions, count, request.PageNumber, request.PageSize);
+                
+            }
+            catch 
+            {
+                return new PagedResponse<List<Transaction>?>(null, 500, "Não foi possível concluir a busca!");
+
+            }
         }
 
         public async Task<Response<Transaction?>> UpdateTransactionAsync(UpdateTransactionRequest request)

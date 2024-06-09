@@ -21,3 +21,4 @@ C:\Users\Usuario\Desktop\Cursos de Programação\WepApi\FinaBalta\FinaTransictio
 C:\Users\Usuario\Desktop\Cursos de Programação\WepApi\FinaBalta\FinaTransiction\Fina.Core\obj\Debug\net8.0\refint\Fina.Core.dll
 C:\Users\Usuario\Desktop\Cursos de Programação\WepApi\FinaBalta\FinaTransiction\Fina.Core\obj\Debug\net8.0\Fina.Core.pdb
 C:\Users\Usuario\Desktop\Cursos de Programação\WepApi\FinaBalta\FinaTransiction\Fina.Core\obj\Debug\net8.0\ref\Fina.Core.dll
+C:\AulasAluraBackEnd\ProjetoBaltaIo\Fina\Fina.Core\obj\Debug\net8.0\Fina.Core.sourcelink.json
