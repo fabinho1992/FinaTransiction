@@ -1,4 +1,7 @@
+using Fina.Api;
+using Fina.Api.Commom.Api;
 using Fina.Api.Data;
+using Fina.Api.EndPoints;
 using Fina.Api.Services;
 using Fina.Core.Requests.Categories;
 using Fina.Core.Services;
@@ -7,21 +10,17 @@ using System.Reflection.Metadata;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
-
-
-
-var StringConnection = builder.Configuration.GetConnectionString("ConnectionNotbook");
-builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(StringConnection));
-
-builder.Services.AddTransient<ICategoryService, CategoryService>();
-builder.Services.AddTransient<ITransactionService, TransactionService>();
+builder.AddConfiguration();
+builder.AddDbContext();
+builder.AddCrossOrigin();
+builder.AddDocumentation();
+builder.AddServices();
 
 var app = builder.Build();
+if (app.Environment.IsDevelopment())
+    app.ConfigureDevEnvironment();
 
-
-
-app.MapGet("/", (GetAllCategoryRequest request, ICategoryService service) => service.GetAllCategoryAsync(request));
-
-
+app.UseCors(ApiConfiguration.CorsPolicyName);
+app.MapEndpoints();
 
 app.Run();

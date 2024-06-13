@@ -1,4 +1,4 @@
-﻿using Fina.Api.Commom;
+﻿using Fina.Api.Commom.Api;
 using Fina.Core.Models;
 using Fina.Core.Requests.Transactions;
 using Fina.Core.Responses;
@@ -11,7 +11,7 @@ namespace Fina.Api.EndPoints.Transactions
         public static void Map(IEndpointRouteBuilder app)
         {
             app.MapGet("/{id}", HandleAsync)
-                .WithName("Categories: Get By Id")
+                .WithName("Transaction: Get By Id")
                 .WithOrder(4)
                 .Produces<Response<Transaction?>>();
         }

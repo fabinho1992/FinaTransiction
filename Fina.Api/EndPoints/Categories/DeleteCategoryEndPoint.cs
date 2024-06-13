@@ -1,5 +1,4 @@
-﻿
-using Fina.Api.Commom;
+﻿using Fina.Api.Commom.Api;
 using Fina.Core.Models;
 using Fina.Core.Requests.Categories;
 using Fina.Core.Responses;
@@ -9,13 +8,13 @@ namespace Fina.Api.EndPoints.Categories
 {
     public class DeleteCategoryEndPoint : IEndpoint
     {
-        public static void Map(IEndpointRouteBuilder app)
-        {
+        public static void Map(IEndpointRouteBuilder app) =>
+        
             app.MapDelete("/{id}", HandleAsync)
                 .WithName("Categories: Delete")
                 .WithOrder(3)
                 .Produces<Response<Category?>>();
-        }
+        
         private static async Task<IResult> HandleAsync(ICategoryService service, long id)
         {
             var request = new DeleteCategoryRequest { UserId = ApiConfiguration.UserId, Id = id };

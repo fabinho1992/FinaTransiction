@@ -65,13 +65,17 @@ namespace Fina.Api.Services
             try
             {
                 var categories = await query
-                    .Skip((request.PageNumber - 1) * request.PageSize)
-                    .Take(request.PageSize)
-                    .ToListAsync();
+                .Skip((request.PageNumber - 1) * request.PageSize)
+                .Take(request.PageSize)
+                .ToListAsync();
 
                 var count = await query.CountAsync();
 
-                return new PagedResponse<List<Category>?>(categories, count, request.PageNumber, request.PageSize);
+                return new PagedResponse<List<Category>?>(
+                    categories,
+                    count,
+                    request.PageNumber,
+                    request.PageSize);
             }
             catch 
             {

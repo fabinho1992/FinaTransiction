@@ -1,4 +1,4 @@
-﻿using Fina.Api.Commom;
+﻿using Fina.Api.Commom.Api;
 using Fina.Core;
 using Fina.Core.Models;
 using Fina.Core.Requests.Transactions;

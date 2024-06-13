@@ -1,4 +1,4 @@
-﻿using Fina.Api.Commom;
+﻿using Fina.Api.Commom.Api;
 using Fina.Core;
 using Fina.Core.Models;
 using Fina.Core.Requests.Categories;
@@ -9,19 +9,25 @@ namespace Fina.Api.EndPoints.Categories
 {
     public class GetCategoryByIdEndPoint : IEndpoint
     {
-        public static void Map(IEndpointRouteBuilder app)
-        {
+        public static void Map(IEndpointRouteBuilder app) =>
+        
             app.MapGet("/{id}", HandleAsync)
                 .WithName("Categories: Get By Id")
                 .WithOrder(4)
                 .Produces<Response<Category?>>();
-        }
 
-        private static async Task<IResult> HandleAsync(ICategoryService service, long id)
+
+        private static async Task<IResult> HandleAsync(
+        ICategoryService handler,
+        long id)
         {
-            var request = new GetCategoryByIdRequest { Id = id, UserId = ApiConfiguration.UserId };
+            var request = new GetCategoryByIdRequest
+            {
+                UserId = ApiConfiguration.UserId,
+                Id = id
+            };
 
-            var result = await service.GetByIdCategoryAsync(request);
+            var result = await handler.GetByIdCategoryAsync(request);
             return result.IsSucess
                 ? TypedResults.Ok(result)
                 : TypedResults.BadRequest(result);
