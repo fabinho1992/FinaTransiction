@@ -58,12 +58,14 @@ namespace Fina.Api.Services
 
         public async Task<PagedResponse<List<Category>?>> GetAllCategoryAsync(GetAllCategoryRequest request)
         {
-            var query = _context.Categories.AsNoTracking()
-                .Where(c => c.UserId == request.UserId)
-                .OrderBy(c => c.Title);
+            
 
             try
             {
+                var query = _context.Categories.AsNoTracking();
+                //.Where(c => c.UserId == request.UserId)
+                //.OrderBy(c => c.Title);
+
                 var categories = await query
                 .Skip((request.PageNumber - 1) * request.PageSize)
                 .Take(request.PageSize)
@@ -104,16 +106,24 @@ namespace Fina.Api.Services
         {
             try
             {
-                var category = await _context.Categories
-                    .FirstOrDefaultAsync(c => c.Id == request.Id && c.UserId == request.UserId);
-                if (category is null) return new Response<Category?>(null, 404, "Categoria não encontrada!");
+                var category = await _context
+               .Categories.AsNoTracking() 
+               .FirstOrDefaultAsync(x => x.Id == request.Id );
 
-                category.Title = request.Title;
-                category.Description = request.Description;
+                if (category is null)
+                {
+                    return new Response<Category?>(null, 404, "Categoria não encontrada");
+                }
+                else
+                {
+                    category.Title = request.Title;
+                    category.Description = request.Description;
 
-                _context.Categories.Update(category);
-                await _context.SaveChangesAsync();
-                return new Response<Category?>(category, message: "Categoria atualizada!");
+                    _context.Categories.Update(category);
+                    await _context.SaveChangesAsync();
+
+                    return new Response<Category?>(category, message: "Categoria atualizada com sucesso");
+                }
             }
             catch 
             {
